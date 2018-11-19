@@ -1,0 +1,18 @@
+{
+	"name": "airppt-sample-alphabetter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "electron.js",
+	"scripts": {
+		"build": "node main.js",
+		"start": "electron .",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"airppt-parser": "^1.0.4",
+		"airppt-renderer": "^1.0.1",
+		"electron": "^2.0.13"
+	}
+}
